@@ -1,0 +1,7 @@
+print("Indentify the character in another charecter")
+char_1 = input("Enter a character : ")
+char_2 = input("Enter another Character : ")
+if char_2 in char_1:
+    print("Present")
+else:
+    print("Not present")
